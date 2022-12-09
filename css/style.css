@@ -1,0 +1,17 @@
+body{
+    font-family: Roboto;
+    color: white; 
+    text-align: center;
+    background-color: rgb(173, 168, 228);
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+}
+
+#login-icon{
+    width: 96px;
+    height: 96px;
+}
+
+div{
+    margin: 10px;
+}
