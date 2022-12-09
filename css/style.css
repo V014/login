@@ -3,7 +3,7 @@ body{
     color: white; 
     text-align: center;
     background-color: rgb(173, 168, 228);
-    background-image: url('background.jpg');
+    background-image: url('../img/background.jpg');
     background-attachment: fixed;
 }
 

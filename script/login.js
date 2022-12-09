@@ -3,9 +3,9 @@ function authenticate(){
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
     if(username == "admin" && password == "admin"){
-        window.location = "home.html";
+        window.location = "./home.html";
     }else{
-        const audio = new Audio('ping.mp3');
+        const audio = new Audio('./sfx/ping.mp3');
         audio.loop = false;
         audio.play();
         window.alert("error!");
